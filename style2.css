@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header and Banner */
+body{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1321px;
+    height: 646px;
+    margin-top: 50px;
+    /* margin-right: 139px; */
+    margin-bottom: 130px;
+    /* margin-left: 140px; */
+    background: #161616;
+    border-radius: 30px;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+}
+.banner-writings{
+    margin-top: 111px;
+    margin-left: 106px;
+    width: 531px;
+    height: 424px;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.banner-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.banner-btn{
+    padding: 16px 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 79px;
+}
+
+/* main */
+/* Side Linked Buttons */
+/* .container-2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 130px;
+} */
+.left-section{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+.buttons{
+    width: 252px;
+    height: 252px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.btn-1{
+    background-color: #DD0000;
+}
