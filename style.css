@@ -116,6 +116,7 @@ a {
 .transfer-blog img{
     width: 312px;
     height: 175px;
+    margin-bottom: 20px;
 }
 .tag{
     width: 100px;
@@ -129,7 +130,7 @@ a {
 h3{
     font-size: 18px;
     line-height: 27px;
-    margin-bottom: 59;
+    margin-bottom: 20px;
 }
 
 .icon img{
