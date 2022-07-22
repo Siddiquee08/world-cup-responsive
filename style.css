@@ -96,6 +96,10 @@ button{
     line-height: 30px;
     font-weight: 600;
 }
+a {
+    text-decoration: none;
+    color: #161616;
+}
 .btn-3{
     background-color: #DD0000;
 }
