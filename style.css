@@ -5,6 +5,10 @@
 }
 /* Header and Banner */
 header{
+    display: flex;
+    justify-content: center;
+}
+.container{
     width: 1321px;
     height: 646px;
     margin-left: 140px;
@@ -16,20 +20,14 @@ header{
 body{
     font-family:'Poppins', sans-serif;
 }
-header{
-    width: 1321px;
-    height: 646px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-top: 50px;
-}
+
 .banner{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
 }
 .banner-writings{
+    margin-top: 111px;
     margin-left: 106px;
     width: 531px;
     height: 424px;
@@ -57,7 +55,7 @@ header{
     background-color: #DD0000;
     border-radius: 5px;
     color: #FFFFFF;
-    margin-bottom: 111px;
+    margin-bottom: 1px;
 }
 img{
     width: 581px;
