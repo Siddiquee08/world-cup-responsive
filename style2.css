@@ -99,3 +99,41 @@ button{
 .btn-1{
     background-color: #DD0000;
 }
+/* Footer */
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #161616;
+}
+
+.footer-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+    color:#FFFFFF;
+}
+hr{
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 351px;
+    padding-right: 351px;
+    color: rgba(185, 185, 185, 1);
+    margin-bottom: 50px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.social{
+    margin-right: 30px;
+}
