@@ -5,23 +5,23 @@
 }
 /* Header and Banner */
 header{
-    /* width: 1321px;
-    height: 646px; */
+    width: 1321px;
+    height: 646px;
     margin-left: 140px;
     margin-top: 50px;
-    margin-right: 140px;
+    margin-right: 139px;
     background: #161616;
     border-radius: 30px;
 }
 body{
-    font-family: font-family: 'Poppins', sans-serif;;
+    font-family:'Poppins', sans-serif;
 }
 header{
     width: 1321px;
     height: 646px;
     margin-left: 140px;
-    margin-top: 50px;
     margin-right: 140px;
+    margin-top: 50px;
 }
 .banner{
     display: flex;
@@ -30,7 +30,6 @@ header{
     align-items: center;
 }
 .banner-writings{
-    margin-top: 111px;
     margin-left: 106px;
     width: 531px;
     height: 424px;
@@ -40,6 +39,7 @@ header{
     font-weight: 700;
     font-size: 70px;
     line-height: 80px;
+    margin-top: 140px;
     margin-bottom: 30px;
 }
 .banner-paragraph{
