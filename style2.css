@@ -65,15 +65,18 @@ img{
     margin-top: 33px;
     margin-right: 79px;
 }
+.banner-image:hover{
+    transform: translate(4em,1px);
+}
 
 /* main */
 /* Side Linked Buttons */
-/* .container-2{
+ .container-2{
     display: flex;
     gap: 10px;
     justify-content: center;
     margin-bottom: 130px;
-} */
+} 
 .left-section{
     width: 312px;
     height: 312px;
@@ -99,6 +102,47 @@ button{
 .btn-1{
     background-color: #DD0000;
 }
+.upcoming-matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.match-data{
+    width: 312px;
+    height: 242px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+}
+.match-info{
+    margin: 53px 30px;
+}
+
+.match{
+    display: flex;
+}
+.match img{
+    width: 93px;
+    height: 56px;
+    margin-bottom: 20px;
+}
+.vs{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-right: 22px;
+}
+.text{
+    text-align: center;
+}
+.country-name{
+    margin-bottom: 10px;
+}
+.text p{
+    font-size: 12px;
+}
+
 /* Footer */
 footer{
     width: 100%;
