@@ -15,7 +15,6 @@ header{
 }
 .container{
     width: 1321px;
-    height: 646px;
     margin-top: 50px;
     /* margin-right: 139px; */
     margin-bottom: 130px;
@@ -33,7 +32,6 @@ header{
     margin-top: 111px;
     margin-left: 106px;
     width: 531px;
-    height: 424px;
 }
 .banner-title{
     color: #FFFFFF;
@@ -61,7 +59,6 @@ header{
 }
 img{
     width: 581px;
-    height: 613px;
     margin-top: 33px;
     margin-right: 79px;
 }
